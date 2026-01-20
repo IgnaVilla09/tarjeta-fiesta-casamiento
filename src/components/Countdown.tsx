@@ -9,7 +9,7 @@ const Countdown: React.FC = () => {
   });
 
   useEffect(() => {
-    const weddingDate = new Date("2026-02-21T18:00:00");
+    const weddingDate = new Date("2026-02-21T16:30:00");
     const timer = setInterval(() => {
       const now = new Date().getTime();
 
@@ -18,7 +18,7 @@ const Countdown: React.FC = () => {
         setTimeLeft({
           dias: Math.floor(distance / (1000 * 60 * 60 * 24)),
           horas: Math.floor(
-            (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+            (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60),
           ),
           minutos: Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)),
           segundos: Math.floor((distance % (1000 * 60)) / 1000),
