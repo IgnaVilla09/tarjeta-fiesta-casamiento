@@ -16,7 +16,7 @@ export default function Cards() {
         <div className="relative w-60 h-50 md:w-full flex flex-col bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl p-6 border border-blue-500/30 items-center justify-center">
           <Clock className="w-8 h-8 text-blue-400 mb-4" />
           <h3 className="text-white font-bold text-lg mb-2">HORA</h3>
-          <p className="text-gray-300 text-sm">16:30 hrs en adelante</p>
+          <p className="text-gray-300 text-sm">16:00 hrs en adelante</p>
         </div>
       </div>
 
